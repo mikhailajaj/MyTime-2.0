@@ -6,6 +6,7 @@
 //
 
 import Foundation
+//note
 class TimeScahadual: ObservableObject{
     private var _id: UUID? = UUID()
     private var _hoursAvailability: Int? = 0
