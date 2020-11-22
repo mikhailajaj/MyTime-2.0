@@ -9,23 +9,43 @@
 /* Begin PBXBuildFile section */
 		298E071D256B010C00427237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E071C256B010C00427237 /* AppDelegate.swift */; };
 		298E071F256B010C00427237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E071E256B010C00427237 /* SceneDelegate.swift */; };
-		298E0721256B010D00427237 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E0720256B010D00427237 /* ContentView.swift */; };
 		298E0724256B010D00427237 /* MyTime_2_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 298E0722256B010D00427237 /* MyTime_2_0.xcdatamodeld */; };
 		298E0726256B010E00427237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298E0725256B010E00427237 /* Assets.xcassets */; };
 		298E0729256B010E00427237 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298E0728256B010E00427237 /* Preview Assets.xcassets */; };
 		298E072C256B010E00427237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298E072A256B010E00427237 /* LaunchScreen.storyboard */; };
+		298E0764256B0C8100427237 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E0756256B0C8100427237 /* MapView.swift */; };
+		298E0765256B0C8100427237 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E0757256B0C8100427237 /* Dashboard.swift */; };
+		298E0766256B0C8100427237 /* TimeManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E0758256B0C8100427237 /* TimeManagerView.swift */; };
+		298E0767256B0C8100427237 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E0759256B0C8100427237 /* SignUpView.swift */; };
+		298E0768256B0C8100427237 /* BookTimeFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E075A256B0C8100427237 /* BookTimeFrameView.swift */; };
+		298E0769256B0C8100427237 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E075C256B0C8100427237 /* User.swift */; };
+		298E076A256B0C8100427237 /* TimeSchadual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E075D256B0C8100427237 /* TimeSchadual.swift */; };
+		298E076B256B0C8100427237 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E075F256B0C8100427237 /* LocationManager.swift */; };
+		298E076C256B0C8100427237 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E0761256B0C8100427237 /* UserViewModel.swift */; };
+		298E076D256B0C8100427237 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E0762256B0C8100427237 /* MapViewModel.swift */; };
+		298E076E256B0C8100427237 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E0763256B0C8100427237 /* LogInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		298E0719256B010C00427237 /* MyTime 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyTime 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		298E071C256B010C00427237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		298E071E256B010C00427237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		298E0720256B010D00427237 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		298E0723256B010D00427237 /* MyTime_2_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyTime_2_0.xcdatamodel; sourceTree = "<group>"; };
 		298E0725256B010E00427237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298E0728256B010E00427237 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		298E072B256B010E00427237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298E072D256B010E00427237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298E0756256B0C8100427237 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		298E0757256B0C8100427237 /* Dashboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		298E0758256B0C8100427237 /* TimeManagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeManagerView.swift; sourceTree = "<group>"; };
+		298E0759256B0C8100427237 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		298E075A256B0C8100427237 /* BookTimeFrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTimeFrameView.swift; sourceTree = "<group>"; };
+		298E075C256B0C8100427237 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		298E075D256B0C8100427237 /* TimeSchadual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSchadual.swift; sourceTree = "<group>"; };
+		298E075F256B0C8100427237 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		298E0761256B0C8100427237 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		298E0762256B0C8100427237 /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		298E0763256B0C8100427237 /* LogInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +78,13 @@
 		298E071B256B010C00427237 /* MyTime 2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				298E0763256B0C8100427237 /* LogInView.swift */,
+				298E075B256B0C8100427237 /* Model */,
+				298E075E256B0C8100427237 /* Utility */,
+				298E0755256B0C8100427237 /* View */,
+				298E0760256B0C8100427237 /* ViewModel */,
 				298E071C256B010C00427237 /* AppDelegate.swift */,
 				298E071E256B010C00427237 /* SceneDelegate.swift */,
-				298E0720256B010D00427237 /* ContentView.swift */,
 				298E0725256B010E00427237 /* Assets.xcassets */,
 				298E072A256B010E00427237 /* LaunchScreen.storyboard */,
 				298E072D256B010E00427237 /* Info.plist */,
@@ -76,6 +100,44 @@
 				298E0728256B010E00427237 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		298E0755256B0C8100427237 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				298E0756256B0C8100427237 /* MapView.swift */,
+				298E0757256B0C8100427237 /* Dashboard.swift */,
+				298E0758256B0C8100427237 /* TimeManagerView.swift */,
+				298E0759256B0C8100427237 /* SignUpView.swift */,
+				298E075A256B0C8100427237 /* BookTimeFrameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		298E075B256B0C8100427237 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				298E075C256B0C8100427237 /* User.swift */,
+				298E075D256B0C8100427237 /* TimeSchadual.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		298E075E256B0C8100427237 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				298E075F256B0C8100427237 /* LocationManager.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		298E0760256B0C8100427237 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				298E0761256B0C8100427237 /* UserViewModel.swift */,
+				298E0762256B0C8100427237 /* MapViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +211,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				298E0724256B010D00427237 /* MyTime_2_0.xcdatamodeld in Sources */,
+				298E076C256B0C8100427237 /* UserViewModel.swift in Sources */,
+				298E0764256B0C8100427237 /* MapView.swift in Sources */,
+				298E0768256B0C8100427237 /* BookTimeFrameView.swift in Sources */,
+				298E076D256B0C8100427237 /* MapViewModel.swift in Sources */,
+				298E076B256B0C8100427237 /* LocationManager.swift in Sources */,
+				298E0765256B0C8100427237 /* Dashboard.swift in Sources */,
+				298E0767256B0C8100427237 /* SignUpView.swift in Sources */,
+				298E076E256B0C8100427237 /* LogInView.swift in Sources */,
+				298E0769256B0C8100427237 /* User.swift in Sources */,
 				298E071D256B010C00427237 /* AppDelegate.swift in Sources */,
+				298E076A256B0C8100427237 /* TimeSchadual.swift in Sources */,
 				298E071F256B010C00427237 /* SceneDelegate.swift in Sources */,
-				298E0721256B010D00427237 /* ContentView.swift in Sources */,
+				298E0766256B0C8100427237 /* TimeManagerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
